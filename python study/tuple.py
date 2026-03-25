@@ -1,0 +1,12 @@
+t=(1,2,3,4,5)
+t1=("apple","orange","banana")
+print(t[1])
+print(t.index(2))
+print(len(t))
+print("apple"in t1)
+print(t1.index("apple"))
+print(tuple(sorted(t1)))#sorted gives output in a list so it is converted to tuple using tuple()fun()
+t1+=("abdulla","abd")
+print(t1)
+t2=t1
+print(t2)
